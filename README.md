@@ -93,4 +93,6 @@ monitoring stations. That's why industrial towns such as Gabès don't stand out 
 
 Limits used: WHO 2021 air quality guidelines, 24-hour means (PM2.5 15 µg/m³, PM10 45 µg/m³).
 
-The code is released under the [MIT License](LICENSE).
+## License
+
+© 2026 Hamza Ben Ismail. All rights reserved.
