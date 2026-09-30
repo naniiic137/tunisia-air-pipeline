@@ -1,0 +1,19 @@
+[project]
+name = "airpipe"
+version = "1.0.0"
+description = "Daily data pipeline for air quality across Tunisian cities (Open-Meteo -> DuckDB -> dashboard)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/airpipe/dashboard.py" = ["E501"]  # the HTML template reads better unwrapped
